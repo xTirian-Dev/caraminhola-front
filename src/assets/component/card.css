@@ -1,0 +1,30 @@
+.card {
+  background-color: #fff;
+  width: 80%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+  padding: 16px;
+  margin: 16px 0;
+  text-align: center;
+  height: 300px;
+  cursor: pointer;
+}
+
+.card h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 300px;
+    margin: 0 auto;
+  }
+}
